@@ -14,11 +14,6 @@ public class HeroMovement : MonoBehaviour
     Vector2 movement;
     Vector2 mousePos;
 
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
