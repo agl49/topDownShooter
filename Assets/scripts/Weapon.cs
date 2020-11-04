@@ -8,12 +8,6 @@ public class Weapon : ScriptableObject
     public GameObject bulletPrefab;
     public float fireRate = 1f;
     public int damage = 1;
+    public float bulletForce = 20f;
 
-    public void shoot()
-    {
-        GameObject bullet = Instantiate(bulletPrefab, 
-                                        GameObject.Find("FirePoint").transform.position, 
-                                        Quaternion.identity);
-                                        
-    }
-}
+ }

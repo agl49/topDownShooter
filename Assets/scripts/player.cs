@@ -8,6 +8,8 @@ public class player : MonoBehaviour
     public Rigidbody2D rb;
     public Camera cam;
     public float speed = 5f;
+    public Weapon currentWeapon;
+    public Transform firePoint;
     Vector2 movement;
     Vector2 mousePos;
     
@@ -20,7 +22,12 @@ public class player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       getInput(); 
+       getInput();
+       if(Input.GetButtonDown("Fire1"))
+       {
+            shoot();
+       }
+   
     }
 
     void FixedUpdate()
@@ -32,6 +39,16 @@ public class player : MonoBehaviour
 
         rb.rotation = angle;
 
+    }
+
+    //Returning this to shoot might be a good idea
+    void shoot()
+    {
+        GameObject bullet = Instantiate(currentWeapon.bulletPrefab, 
+                                        firePoint.position,
+                                        firePoint.rotation);
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        rb.AddForce(firePoint.up * currentWeapon.bulletForce, ForceMode2D.Impulse);
     }
 
     private void getInput()
