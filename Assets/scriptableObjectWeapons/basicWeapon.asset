@@ -12,3 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: basicWeapon
   m_EditorClassIdentifier: Assembly-CSharp::Weapon
+  bulletPrefab: {fileID: 333783558750922959, guid: fb7e3fe3c161c2c42bccf923a06ddec6,
+    type: 3}
+  fireRate: 1
+  damage: 1
