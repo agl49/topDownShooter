@@ -55,8 +55,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Bullet.cs" />
+     <Compile Include="Assets\Enemy.cs" />
+     <Compile Include="Assets\EnemyGFX.cs" />
+     <Compile Include="Assets\EnemyMovement.cs" />
+     <Compile Include="Assets\Hero.cs" />
      <Compile Include="Assets\HeroMovement.cs" />
      <Compile Include="Assets\Shooting.cs" />
+     <None Include="Assets\otherImages\PTSD Demon Pack\PTSDDemon-ReadMe.txt" />
+     <None Include="Assets\otherImages\PTSD Demon Pack\PTSDDemonSymbolism.txt" />
      <None Include="Assets\ShooterSpritePack\ReadMe.txt" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -240,6 +247,9 @@
  </Reference>
  <Reference Include="UnityEditor">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+ <HintPath>C:/Users/colby/Desktop/topDownShooter/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -669,6 +679,18 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{E76E5F1B-49B3-991B-872C-BD126F41698A}</Project>
+      <Name>AstarPathfindingProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="PackageToolsEditor.csproj">
+      <Project>{F013B666-2B71-DD79-6AF2-BA4B548BC124}</Project>
+      <Name>PackageToolsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
+      <Project>{CAF29223-65D4-9A84-B473-64AE3B6FA2FA}</Project>
+      <Name>AstarPathfindingProjectEditor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
