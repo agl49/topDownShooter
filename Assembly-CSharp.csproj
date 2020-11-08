@@ -56,11 +56,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Bullet.cs" />
+     <Compile Include="Assets\CameraFollow.cs" />
      <Compile Include="Assets\Enemy.cs" />
+     <Compile Include="Assets\EnemyFollow.cs" />
      <Compile Include="Assets\EnemyGFX.cs" />
      <Compile Include="Assets\EnemyMovement.cs" />
      <Compile Include="Assets\Hero.cs" />
      <Compile Include="Assets\HeroMovement.cs" />
+     <Compile Include="Assets\ShootTarget.cs" />
      <Compile Include="Assets\Shooting.cs" />
      <None Include="Assets\otherImages\PTSD Demon Pack\PTSDDemon-ReadMe.txt" />
      <None Include="Assets\otherImages\PTSD Demon Pack\PTSDDemonSymbolism.txt" />
