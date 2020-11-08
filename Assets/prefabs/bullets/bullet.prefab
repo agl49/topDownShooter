@@ -131,7 +131,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.8461046, y: 12.8}
   m_EdgeRadius: 0
+<<<<<<< HEAD:Assets/prefabs/bullets/bullet.prefab
 --- !u!114 &-5836681871889059039
+=======
+--- !u!114 &-3635701654906377589
+>>>>>>> main:Assets/bullet.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,8 +144,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 333783558750922959}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD:Assets/prefabs/bullets/bullet.prefab
   m_Script: {fileID: 11500000, guid: d7ac427fed04f6aefa5fb4dade1cc4ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   hitEffect: {fileID: 5403015564272156450, guid: 467e8db4427d724718918abbf787b825,
     type: 3}
+=======
+  m_Script: {fileID: 11500000, guid: 5d2b96fa106fb4e46bfefc4a1ca0f0d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hit: {fileID: 0}
+>>>>>>> main:Assets/bullet.prefab
