@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6143232710463173017}
   - component: {fileID: 6143232710463173020}
   - component: {fileID: 6143232710463173011}
+  - component: {fileID: 1812138390}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -120,9 +121,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45f23521ee8622f91a94284d0420d5f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
   rb: {fileID: 6143232710463173023}
   cam: {fileID: 0}
   speed: 15
+  OnGetHit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnDie:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!61 &6143232710463173017
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -181,6 +200,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentWeapon: {fileID: 11400000, guid: 79a625218b5696dff8e237b34f6a078b, type: 2}
+--- !u!114 &1812138390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6143232710463173018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e0718d0d82c3c17bf8e2b77896f459, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 0
 --- !u!1 &6143232711316676060
 GameObject:
   m_ObjectHideFlags: 0
