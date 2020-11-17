@@ -10,8 +10,15 @@ public class damageArea : MonoBehaviour
 
     [SerializeField]
     private UnityEvent myTrigger;
-
     private bool waitForNextDamage;
+    
+    [SerializeField]
+    private float attackDelay = 2f;
+
+    void Start()
+    {
+        waitForNextDamage = false;
+    }
 
     void OnTriggerStay2D(Collider2D other)
     {
@@ -19,11 +26,22 @@ public class damageArea : MonoBehaviour
 
         if(other.CompareTag("Player"))
         {
+            if(waitForNextDamage == false)
+            {
+                myTrigger.Invoke();
+                StartCoroutine(waitBeforeAttackCoroutine());
+            }
             //Debug.Log("we found player");
-            myTrigger.Invoke();
             //var player = collision.GetComponent<Collider>().GetComponent<player>();
         
             //player?.getHit(damage, gameObject); 
         }
+    }
+
+    IEnumerator waitBeforeAttackCoroutine()
+    {
+        waitForNextDamage = true;
+        yield return new WaitForSeconds(attackDelay);
+        waitForNextDamage = false;        
     }
 }

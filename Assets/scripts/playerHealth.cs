@@ -26,8 +26,10 @@ public class playerHealth : MonoBehaviour, Ihealth
         currentHealth -= dmg;
         currentHealth = Mathf.Clamp(currentHealth, 0f, 100f);
         if(currentHealth <= 0)
+        {
             alive = false;
-
+        }
+           
         return currentHealth;    
     }
 

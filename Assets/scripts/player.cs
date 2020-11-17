@@ -57,7 +57,7 @@ public class player : MonoBehaviour, Ihittable
     {
         myHealth.takeSmallDamage(dmg);
         //OnGetHit?.Invoke();
-        if(myHealth.isAlive())
+        if(!myHealth.isAlive())
             die();
 
         Debug.Log("hit");    
