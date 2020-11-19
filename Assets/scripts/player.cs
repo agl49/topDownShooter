@@ -27,12 +27,20 @@ public class player : MonoBehaviour, Ihittable
     private UnityEvent OnGetHit;
     
     [SerializeField]
-    private UnityEvent OnDie; 
+    private UnityEvent<bool> OnDie; 
+
+    [SerializeField]
+    private UnityEvent<bool> OnMoving;
 
     // Start is called before the first frame update
-    void Start()
+
+    void Awake()
     {
         myHealth = gameObject.GetComponent<Ihealth>();
+    }
+
+    void Start()
+    {
         myHealth.setCurrentHealth(maxHealth);
     }
 
@@ -44,6 +52,14 @@ public class player : MonoBehaviour, Ihittable
 
     void FixedUpdate()
     {
+        if(movement.x != 0 || movement.y != 0)
+        {
+            OnMoving?.Invoke(true);
+        }
+        else
+        {
+            OnMoving?.Invoke(false);
+        }
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
 
         Vector2 lookDir = mousePos - rb.position;
@@ -51,6 +67,22 @@ public class player : MonoBehaviour, Ihittable
 
         rb.rotation = angle;
 
+    }
+
+    private void getInput()
+    {
+        movement.x = Input.GetAxis("Horizontal");
+        movement.y = Input.GetAxis("Vertical");
+
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+    }
+
+    private void actDead()
+    {
+        //Doesn't work...
+        movement.x = 0;
+        movement.y = 0;
+        rb.velocity = Vector2.zero;
     }
 
     public void getHit(float dmg)
@@ -65,15 +97,10 @@ public class player : MonoBehaviour, Ihittable
 
     public void die()
     {
-        //OnDie?.Invoke();
+        OnDie?.Invoke(!myHealth.isAlive());
         Debug.Log("I died");
+        Debug.Log("myHealth.isAlive = " + myHealth.isAlive());
+        actDead();
     }
 
-    private void getInput()
-    {
-        movement.x = Input.GetAxis("Horizontal");
-        movement.y = Input.GetAxis("Vertical");
-
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-    }
 }
