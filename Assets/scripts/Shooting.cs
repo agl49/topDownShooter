@@ -8,6 +8,8 @@ public class Shooting : MonoBehaviour
 
     private Transform firePoint;
 
+    private bool ableToShoot = true;
+
     void Start()
     {
         firePoint = transform.Find("FirePoint");
@@ -24,12 +26,18 @@ public class Shooting : MonoBehaviour
    
     public void shoot()
     {
-        
-        GameObject bullet = Instantiate(currentWeapon.bulletPrefab, 
-                                        firePoint.position,
-                                        firePoint.rotation);
-        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        rb.AddForce(firePoint.up * currentWeapon.bulletForce, ForceMode2D.Impulse);
-       
+        if(ableToShoot)
+        {
+            GameObject bullet = Instantiate(currentWeapon.bulletPrefab, 
+                                                firePoint.position,
+                                            firePoint.rotation);
+            Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+            rb.AddForce(firePoint.up * currentWeapon.bulletForce, ForceMode2D.Impulse);
+        }
+    }
+
+    public void turnOffShooting()
+    {
+        ableToShoot = false;
     }
 }

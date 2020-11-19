@@ -6,34 +6,23 @@ using UnityEngine.Events;
 public class player : MonoBehaviour, Ihittable
 {
     // Start is called before the first frame update
-    [SerializeField]
-    private float maxHealth = 100f;
-
-    [SerializeField]
-    private Rigidbody2D rb;
-
-    [SerializeField]
-    private Camera cam;
-
-    [SerializeField]
-    private float speed = 5f;
-    
+    [SerializeField] private float maxHealth = 100f;
+    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Camera cam;
+    [SerializeField] private float speed = 5f;
     private Vector2 movement;
     private Vector2 mousePos;
-
     private Ihealth myHealth;
+    private bool enableInput = true;
+    private bool enableMove = true;
 
-    [SerializeField]
-    private UnityEvent OnGetHit;
+    [SerializeField] private UnityEvent OnGetHit;
     
-    [SerializeField]
-    private UnityEvent<bool> OnDie; 
+    [SerializeField] private UnityEvent<bool> OnDie; 
 
-    [SerializeField]
-    private UnityEvent<bool> OnMoving;
+    [SerializeField] private UnityEvent<bool> OnMoving;
 
     // Start is called before the first frame update
-
     void Awake()
     {
         myHealth = gameObject.GetComponent<Ihealth>();
@@ -52,37 +41,50 @@ public class player : MonoBehaviour, Ihittable
 
     void FixedUpdate()
     {
-        if(movement.x != 0 || movement.y != 0)
+        move();
+        lookWithMouse();
+
+    }
+
+    private void move()
+    {
+        //This is not the best way to handle death but
+        //is should be the fastest.
+        if(enableMove)
         {
-            OnMoving?.Invoke(true);
+            if(movement.x != 0 || movement.y != 0)
+            {
+                OnMoving?.Invoke(true);
+            }
+            else
+            {
+                OnMoving?.Invoke(false);
+            }
+
+            rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
         }
-        else
+    }
+
+    private void lookWithMouse()
+    {
+        if(enableMove)
         {
-            OnMoving?.Invoke(false);
+            Vector2 lookDir = mousePos - rb.position;
+            float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
+
+            rb.rotation = angle;
         }
-        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
-
-        Vector2 lookDir = mousePos - rb.position;
-        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
-
-        rb.rotation = angle;
-
     }
 
     private void getInput()
     {
-        movement.x = Input.GetAxis("Horizontal");
-        movement.y = Input.GetAxis("Vertical");
+        if(enableInput)
+        {
+            movement.x = Input.GetAxis("Horizontal");
+            movement.y = Input.GetAxis("Vertical");
 
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-    }
-
-    private void actDead()
-    {
-        //Doesn't work...
-        movement.x = 0;
-        movement.y = 0;
-        rb.velocity = Vector2.zero;
+            mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+        }
     }
 
     public void getHit(float dmg)
@@ -95,12 +97,21 @@ public class player : MonoBehaviour, Ihittable
         Debug.Log("hit");    
     }
 
+    public void stopMovement()
+    {
+        enableMove = false;
+    }
+
+    public void stopInput()
+    {
+        enableInput = false;
+    }
+
     public void die()
     {
         OnDie?.Invoke(!myHealth.isAlive());
         Debug.Log("I died");
         Debug.Log("myHealth.isAlive = " + myHealth.isAlive());
-        actDead();
+        //actDead();
     }
-
 }
