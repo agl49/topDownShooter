@@ -16,7 +16,7 @@ public class player : MonoBehaviour, Ihittable
     private bool enableInput = true;
     private bool enableMove = true;
 
-    [SerializeField] private UnityEvent OnGetHit;
+    [SerializeField] private UnityEvent<float> OnGetHit;
     
     [SerializeField] private UnityEvent<bool> OnDie; 
 
@@ -89,8 +89,8 @@ public class player : MonoBehaviour, Ihittable
 
     public void getHit(float dmg)
     {
-        myHealth.takeSmallDamage(dmg);
-        //OnGetHit?.Invoke();
+        float newHealth = myHealth.takeSmallDamage(dmg);
+        OnGetHit?.Invoke(newHealth);
         if(!myHealth.isAlive())
             die();
 
@@ -112,6 +112,5 @@ public class player : MonoBehaviour, Ihittable
         OnDie?.Invoke(!myHealth.isAlive());
         Debug.Log("I died");
         Debug.Log("myHealth.isAlive = " + myHealth.isAlive());
-        //actDead();
     }
 }
