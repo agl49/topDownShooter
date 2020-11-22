@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Exit
   layers:
   - Default
   - TransparentFX
@@ -40,4 +41,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3207063297
+    locked: 0
+  - name: Door
+    uniqueID: 1918873531
+    locked: 0
+  - name: Player
+    uniqueID: 96394629
+    locked: 0
+  - name: Obstacles
+    uniqueID: 2371979761
+    locked: 0
+  - name: Bullet
+    uniqueID: 3507335755
+    locked: 0
+  - name: Foreground
+    uniqueID: 2291818459
     locked: 0

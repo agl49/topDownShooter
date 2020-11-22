@@ -103,4 +103,12 @@ public class player : MonoBehaviour, Ihittable
         actDead();
     }
 
+    // this function will check for the exit door
+    public void OnTriggerEnter2D(Collider2D target)
+    {
+        if(target.tag == "Exit") { 
+            Time.timeScale = 0f;
+        }
+    }
+
 }
