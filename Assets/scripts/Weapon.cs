@@ -10,4 +10,4 @@ public class Weapon : ScriptableObject
     public int damage = 1;
     public float bulletForce = 20f;
 
- }
+}
