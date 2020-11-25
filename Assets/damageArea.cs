@@ -23,7 +23,7 @@ public class damageArea : MonoBehaviour
     void OnTriggerStay2D(Collider2D other)
     {
         //Debug.Log("We are in trigger");
-
+        //todo: add || enemy so hazards hurt other npcs
         if(other.CompareTag("Player"))
         {
             if(waitForNextDamage == false)

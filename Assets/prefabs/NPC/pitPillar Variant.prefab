@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 7073793317359522038, guid: 20d25c503cb43566e81f0cc9fe5ae629,
         type: 3}
       propertyPath: m_Name
-      value: pitPillar Variant
+      value: pitPillar
       objectReference: {fileID: 0}
     - target: {fileID: 7073793317359522039, guid: 20d25c503cb43566e81f0cc9fe5ae629,
         type: 3}
@@ -22,6 +22,47 @@ PrefabInstance:
       propertyPath: myTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7073793317359522039, guid: 20d25c503cb43566e81f0cc9fe5ae629,
+        type: 3}
+      propertyPath: myTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073793317359522041, guid: 20d25c503cb43566e81f0cc9fe5ae629,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.20314838
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073793317359522041, guid: 20d25c503cb43566e81f0cc9fe5ae629,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.15980414
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073793317359522041, guid: 20d25c503cb43566e81f0cc9fe5ae629,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.000000007450581
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073793317359522041, guid: 20d25c503cb43566e81f0cc9fe5ae629,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.001672104
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073793317359522041, guid: 20d25c503cb43566e81f0cc9fe5ae629,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073793317359522041, guid: 20d25c503cb43566e81f0cc9fe5ae629,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073793317359522042, guid: 20d25c503cb43566e81f0cc9fe5ae629,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8893db52cb1dacd8d8bd04e2f7e1ffa5,
+        type: 3}
     - target: {fileID: 7073793317359522043, guid: 20d25c503cb43566e81f0cc9fe5ae629,
         type: 3}
       propertyPath: m_RootOrder
