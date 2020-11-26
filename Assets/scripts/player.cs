@@ -113,4 +113,12 @@ public class player : MonoBehaviour, Ihittable
         Debug.Log("I died");
         Debug.Log("myHealth.isAlive = " + myHealth.isAlive());
     }
+
+    // this function will check for the exit door
+    public void OnTriggerEnter2D(Collider2D target)
+    {
+        if(target.tag == "Exit") { 
+            Time.timeScale = 0f;
+        }
+    }
 }
