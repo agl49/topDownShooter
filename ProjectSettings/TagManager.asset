@@ -14,7 +14,7 @@ TagManager:
   - UI
   - 
   - 
-  - Obstacle
+  - FLOOR
   - 
   - 
   - 
@@ -59,4 +59,7 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 2291818459
+    locked: 0
+  - name: Decor
+    uniqueID: 1467649127
     locked: 0
