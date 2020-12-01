@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7073793317359522042}
   - component: {fileID: 7073793317359522041}
   - component: {fileID: 7073793317359522039}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: DamagePiller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,8 +70,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1976550949
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 217e94e8c5dd9fc46b4a2bfb5503ee19, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

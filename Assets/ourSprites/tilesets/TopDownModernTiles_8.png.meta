@@ -1,0 +1,838 @@
+fileFormatVersion: 2
+guid: da5e4d5c042216c3b8481dab1cc28cdc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5687025753456172148
+    second: TopDownModernTiles_8_0
+  - first:
+      213: -4722528452402452102
+    second: TopDownModernTiles_8_1
+  - first:
+      213: 7405708525314228515
+    second: TopDownModernTiles_8_2
+  - first:
+      213: 5352392368333180270
+    second: TopDownModernTiles_8_3
+  - first:
+      213: 8301731025339503319
+    second: TopDownModernTiles_8_4
+  - first:
+      213: 5946274484116584875
+    second: TopDownModernTiles_8_5
+  - first:
+      213: -2914196922772198983
+    second: TopDownModernTiles_8_6
+  - first:
+      213: -142061256013760944
+    second: TopDownModernTiles_8_7
+  - first:
+      213: -4998064562023901258
+    second: TopDownModernTiles_8_8
+  - first:
+      213: -6161654506871737201
+    second: TopDownModernTiles_8_9
+  - first:
+      213: -3820967525646489110
+    second: TopDownModernTiles_8_10
+  - first:
+      213: 7943240931150807703
+    second: TopDownModernTiles_8_11
+  - first:
+      213: -246760448701833570
+    second: TopDownModernTiles_8_12
+  - first:
+      213: -6198985226266414800
+    second: TopDownModernTiles_8_13
+  - first:
+      213: 6663717441597831693
+    second: TopDownModernTiles_8_14
+  - first:
+      213: -2368105866948076831
+    second: TopDownModernTiles_8_15
+  - first:
+      213: 154570904716126069
+    second: TopDownModernTiles_8_16
+  - first:
+      213: 3078496703833603894
+    second: TopDownModernTiles_8_17
+  - first:
+      213: -9132142327790367776
+    second: TopDownModernTiles_8_18
+  - first:
+      213: 7289684677304724041
+    second: TopDownModernTiles_8_19
+  - first:
+      213: 4530051600351214383
+    second: TopDownModernTiles_8_20
+  - first:
+      213: -626666806126100343
+    second: TopDownModernTiles_8_21
+  - first:
+      213: -7051407869064060925
+    second: TopDownModernTiles_8_22
+  - first:
+      213: -6078975107286216315
+    second: TopDownModernTiles_8_23
+  - first:
+      213: 6499892264495484473
+    second: TopDownModernTiles_8_24
+  - first:
+      213: 6175404261885421962
+    second: TopDownModernTiles_8_25
+  - first:
+      213: -3024967590004309157
+    second: TopDownModernTiles_8_26
+  - first:
+      213: 4391186170603167826
+    second: TopDownModernTiles_8_27
+  - first:
+      213: -7624476700399506502
+    second: TopDownModernTiles_8_28
+  - first:
+      213: -3715332651757668781
+    second: TopDownModernTiles_8_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64.66667
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c832fb85530a311b0800000000000000
+      internalID: -5687025753456172148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64.66667
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7960e0c465367eb0800000000000000
+      internalID: -4722528452402452102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64.66667
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321cf69aaac56c660800000000000000
+      internalID: 7405708525314228515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64.66667
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6dc2053084874a40800000000000000
+      internalID: 5352392368333180270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64.66667
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d25332126ca53370800000000000000
+      internalID: 8301731025339503319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64.66667
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9fcba7329658250800000000000000
+      internalID: 5946274484116584875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64.66667
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b960acb651be87d0800000000000000
+      internalID: -2914196922772198983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64.66667
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05634f25a0c470ef0800000000000000
+      internalID: -142061256013760944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64.66667
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7d81003ce43aab0800000000000000
+      internalID: -4998064562023901258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64.66667
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84b9313fd76d7aa0800000000000000
+      internalID: -6161654506871737201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32.666668
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9a98f974239fac0800000000000000
+      internalID: -3820967525646489110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32.666668
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7924692ba8f0c3e60800000000000000
+      internalID: 7943240931150807703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32.666668
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ed286eda4539cf0800000000000000
+      internalID: -246760448701833570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32.666668
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031fe74c7c7c8f9a0800000000000000
+      internalID: -6198985226266414800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32.666668
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a730e05b74a7c50800000000000000
+      internalID: 6663717441597831693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32.666668
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea9a02c24cc22fd0800000000000000
+      internalID: -2368105866948076831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32.666668
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577273c3b65252200800000000000000
+      internalID: 154570904716126069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_17
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32.666668
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f763a017409ba20800000000000000
+      internalID: 3078496703833603894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32.666668
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb0fb1efec144180800000000000000
+      internalID: -9132142327790367776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32.666668
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a2b5377992a2560800000000000000
+      internalID: 7289684677304724041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.66666794
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bbf15ede9fdde30800000000000000
+      internalID: 4530051600351214383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0.66666794
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980435c2cd1ad47f0800000000000000
+      internalID: -626666806126100343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0.66666794
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300ea0e27ed542e90800000000000000
+      internalID: -7051407869064060925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0.66666794
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58153c3095423aba0800000000000000
+      internalID: -6078975107286216315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0.66666794
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e009f9391443a50800000000000000
+      internalID: 6499892264495484473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0.66666794
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a892d1e157173b550800000000000000
+      internalID: 6175404261885421962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0.66666794
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5349bcf0082506d0800000000000000
+      internalID: -3024967590004309157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_27
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0.66666794
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250e8618e80a0fc30800000000000000
+      internalID: 4391186170603167826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0.66666794
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbe17256da603690800000000000000
+      internalID: -7624476700399506502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopDownModernTiles_8_29
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0.66666794
+        width: 32
+        height: 32.333332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356f29d43ac707cc0800000000000000
+      internalID: -3715332651757668781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

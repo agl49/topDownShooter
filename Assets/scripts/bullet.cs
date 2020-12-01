@@ -10,8 +10,9 @@ public class bullet : MonoBehaviour
    
    void OnCollisionEnter2D(Collision2D collision)
    {
-         var enemy = collision.collider.GetComponent<Enemy>();
+        var enemy = collision.collider.GetComponent<Enemy>();
         
+        //Change hero_0 to some other name
         if(collision.gameObject.name != "hero_0"){
             GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
             Destroy(effect, 2f);
