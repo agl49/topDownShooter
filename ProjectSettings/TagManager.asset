@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Exit
   layers:
   - Default
   - TransparentFX
@@ -13,10 +14,10 @@ TagManager:
   - UI
   - 
   - 
+  - player
+  - agent
   - Obstacle
-  - 
-  - 
-  - 
+  - interactables
   - 
   - 
   - 
@@ -40,4 +41,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: floor
+    uniqueID: 3836899175
+    locked: 0
+  - name: background
+    uniqueID: 3491251733
+    locked: 0
+  - name: interactables
+    uniqueID: 94255765
+    locked: 0
+  - name: agent
+    uniqueID: 2549175867
+    locked: 0
+  - name: forground
+    uniqueID: 2641999579
     locked: 0

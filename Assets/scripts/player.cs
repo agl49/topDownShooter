@@ -9,7 +9,8 @@ public class player : MonoBehaviour, Ihittable
     [SerializeField] private float maxHealth = 100f;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Camera cam;
-    [SerializeField] private float speed = 5f;
+    [SerializeField] private float velocity;
+    [SerializeField] private playerMovementData data; 
     private Vector2 movement;
     private Vector2 mousePos;
     private Ihealth myHealth;
@@ -22,28 +23,31 @@ public class player : MonoBehaviour, Ihittable
 
     [SerializeField] private UnityEvent<bool> OnMoving;
 
+
     // Start is called before the first frame update
     void Awake()
     {
+        Debug.Log("Player Awake");    
         myHealth = gameObject.GetComponent<Ihealth>();
     }
 
     void Start()
     {
         myHealth.setCurrentHealth(maxHealth);
+        Debug.Log("Started player");
     }
 
     // Update is called once per frame
     void Update()
     {
-       getInput();
+        getInput();
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
+        //Debug.Log("in fixedUpdate");    
         move();
         lookWithMouse();
-
     }
 
     private void move()
@@ -60,11 +64,26 @@ public class player : MonoBehaviour, Ihittable
             {
                 OnMoving?.Invoke(false);
             }
-
-            rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+            velocity = calVelocity(movement);
+            rb.velocity = velocity * movement.normalized;
+            //Debug.Log("currentVelocity: " + rb.velocity);
+            //rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
         }
     }
 
+    private float calVelocity(Vector2 movement)
+    {
+        if(movement.magnitude > 0)
+        {
+            velocity += data.acceleration * Time.fixedDeltaTime;            
+        }
+        else
+        {
+            velocity -= data.deacceleration * Time.fixedDeltaTime;  
+        }
+        return Mathf.Clamp(velocity, 0, data.maxSpeed);     
+    }
+    
     private void lookWithMouse()
     {
         if(enableMove)
@@ -84,6 +103,7 @@ public class player : MonoBehaviour, Ihittable
             movement.y = Input.GetAxis("Vertical");
 
             mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+            Debug.Log("Got inputX: " + movement.x);
         }
     }
 
@@ -115,10 +135,10 @@ public class player : MonoBehaviour, Ihittable
     }
 
     // this function will check for the exit door
-    public void OnTriggerEnter2D(Collider2D target)
-    {
-        if(target.tag == "Exit") { 
-            Time.timeScale = 0f;
-        }
-    }
+    //public void OnTriggerEnter2D(Collider2D target)
+    //{
+    //    if(target.tag == "Exit") { 
+    //        Time.timeScale = 0f;
+    //    }
+    //}
 }
