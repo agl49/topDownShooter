@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6658752925055959199}
   - component: {fileID: 6813184436964265885}
   - component: {fileID: 8199626204864408640}
-  - component: {fileID: 1082148009094774277}
+  - component: {fileID: 8577025089866681667}
   m_Layer: 0
   m_Name: fireball
   m_TagString: Untagged
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 6664340099039797635}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -98,13 +98,13 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0.05
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1082148009094774277
+--- !u!114 &8577025089866681667
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -113,10 +113,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6664340099039797635}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17715a5060f204238863ccce297b0ab4, type: 3}
+  m_Script: {fileID: 11500000, guid: fc348e818f22e47a89edb5aea966bde4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firePoint: {fileID: 0}
-  speed: 2
-  bulletForce: 20
-  bulletPrefab: {fileID: 6664340099039797635}
+  speed: 6
