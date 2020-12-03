@@ -1,7 +1,148 @@
 fileFormatVersion: 2
 guid: 244ce18dd1f946d70b916902f4a3f38a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -9137176267965008070
+    second: topDownDemon_0
+  - first:
+      213: -4466936180035449052
+    second: topDownDemon_1
+  - first:
+      213: 7614818503203653425
+    second: topDownDemon_2
+  - first:
+      213: 3792140023312486412
+    second: topDownDemon_3
+  - first:
+      213: 6680117122874467926
+    second: topDownDemon_4
+  - first:
+      213: -7465356034352065714
+    second: topDownDemon_5
+  - first:
+      213: 609744214658256301
+    second: topDownDemon_6
+  - first:
+      213: -7774800947796603708
+    second: topDownDemon_7
+  - first:
+      213: 4912173329608755969
+    second: topDownDemon_8
+  - first:
+      213: 6828027141341071381
+    second: topDownDemon_9
+  - first:
+      213: 2276844350078911334
+    second: topDownDemon_10
+  - first:
+      213: 6551536087324402689
+    second: topDownDemon_11
+  - first:
+      213: -8819081680521641160
+    second: topDownDemon_12
+  - first:
+      213: 4022344909596886687
+    second: topDownDemon_13
+  - first:
+      213: 3447610714190328935
+    second: topDownDemon_14
+  - first:
+      213: 1880478420732548333
+    second: topDownDemon_15
+  - first:
+      213: 3272458211402205421
+    second: topDownDemon_16
+  - first:
+      213: -4220822133205725883
+    second: topDownDemon_17
+  - first:
+      213: -6319386671737472607
+    second: topDownDemon_18
+  - first:
+      213: -3954173925589969913
+    second: topDownDemon_19
+  - first:
+      213: 8682936457872485571
+    second: topDownDemon_20
+  - first:
+      213: 1155292811655498571
+    second: topDownDemon_21
+  - first:
+      213: -4511762308144553055
+    second: topDownDemon_22
+  - first:
+      213: -5416106877926508573
+    second: topDownDemon_23
+  - first:
+      213: 9191583370311501062
+    second: topDownDemon_24
+  - first:
+      213: 1927281284146117507
+    second: topDownDemon_25
+  - first:
+      213: 6484906790941767008
+    second: topDownDemon_26
+  - first:
+      213: 5662650654891620478
+    second: topDownDemon_27
+  - first:
+      213: 1464710008331222717
+    second: topDownDemon_28
+  - first:
+      213: -5508707625785800864
+    second: topDownDemon_29
+  - first:
+      213: 2097620285754478408
+    second: topDownDemon_30
+  - first:
+      213: -2864935063117068677
+    second: topDownDemon_31
+  - first:
+      213: -1677909933153679139
+    second: topDownDemon_32
+  - first:
+      213: -6770422784548255377
+    second: topDownDemon_33
+  - first:
+      213: -7756323962011725294
+    second: topDownDemon_34
+  - first:
+      213: 506944410174729018
+    second: topDownDemon_35
+  - first:
+      213: 2911998185157684027
+    second: topDownDemon_36
+  - first:
+      213: 3743283487065324481
+    second: topDownDemon_37
+  - first:
+      213: -6598233326130188399
+    second: topDownDemon_38
+  - first:
+      213: 1335180744716347756
+    second: topDownDemon_39
+  - first:
+      213: -2973784840573781187
+    second: topDownDemon_40
+  - first:
+      213: 992148745307770443
+    second: topDownDemon_41
+  - first:
+      213: -2210332913200621181
+    second: topDownDemon_42
+  - first:
+      213: 3519199423992372701
+    second: topDownDemon_43
+  - first:
+      213: -931581407411257236
+    second: topDownDemon_44
+  - first:
+      213: -1956862815752649202
+    second: topDownDemon_45
+  - first:
+      213: -6692096937476263363
+    second: topDownDemon_46
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -23,6 +164,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -31,7 +173,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,7 +182,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -57,6 +199,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -64,7 +207,31 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -73,7 +240,994 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: topDownDemon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 441
+        width: 65
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37f0d9589a323180800000000000000
+      internalID: -9137176267965008070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 441
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f85aa06314202c0800000000000000
+      internalID: -4466936180035449052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 446
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137868865154da960800000000000000
+      internalID: 7614818503203653425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c001514724360a430800000000000000
+      internalID: 3792140023312486412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 447
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656efe6612b84bc50800000000000000
+      internalID: 6680117122874467926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 453
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4350aa6d3ab56890800000000000000
+      internalID: -7465356034352065714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad0e86f12f367800800000000000000
+      internalID: 609744214658256301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 446
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc863b0bbb5a1490800000000000000
+      internalID: -7774800947796603708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 385
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b4a721e9b8b2440800000000000000
+      internalID: 4912173329608755969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 387
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5184c54328602ce50800000000000000
+      internalID: 6828027141341071381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_10
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 384
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6630f478fd9f89f10800000000000000
+      internalID: 2276844350078911334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_11
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 384
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104af122c5bbbea50800000000000000
+      internalID: 6551536087324402689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 387
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8334a53efe35c9580800000000000000
+      internalID: -8819081680521641160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_13
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 387
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f968f9c426d32d730800000000000000
+      internalID: 4022344909596886687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_14
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 382
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7643527adaf58df20800000000000000
+      internalID: 3447610714190328935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 390
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de41d83192dc81a10800000000000000
+      internalID: 1880478420732548333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 321
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de840f0b76b1a6d20800000000000000
+      internalID: 3272458211402205421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_17
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 324
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d8a2af1a0ac65c0800000000000000
+      internalID: -4220822133205725883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_18
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 323
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9ffb8bd470d48a0800000000000000
+      internalID: -6319386671737472607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7041919c3c3ff19c0800000000000000
+      internalID: -3954173925589969913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_20
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 323
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc27ca44bcff7870800000000000000
+      internalID: 8682936457872485571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_21
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 323
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bc942f0bc680010800000000000000
+      internalID: 1155292811655498571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_22
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a32c08c5100361c0800000000000000
+      internalID: -4511762308144553055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_23
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 323
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7f3a38d7f16d4b0800000000000000
+      internalID: -5416106877926508573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 258
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6050ece40601f8f70800000000000000
+      internalID: 9191583370311501062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_25
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 257
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bb9c3ed141fba10800000000000000
+      internalID: 1927281284146117507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_26
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 258
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0653a9b2e540ff950800000000000000
+      internalID: 6484906790941767008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_27
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 257
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78b2f3c4c6c59e40800000000000000
+      internalID: 5662650654891620478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_28
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 254
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbeba810ef1b35410800000000000000
+      internalID: 1464710008331222717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 262
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0674d89c9932d83b0800000000000000
+      internalID: -5508707625785800864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 257
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f8c06498e3c1d10800000000000000
+      internalID: 2097620285754478408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_31
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 254
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76885a3db4bd38d0800000000000000
+      internalID: -2864935063117068677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_32
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 192
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd886454ecdd6b8e0800000000000000
+      internalID: -1677909933153679139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_33
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 196
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f694ac34950aa02a0800000000000000
+      internalID: -6770422784548255377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_34
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 192
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212d07983700c5490800000000000000
+      internalID: -7756323962011725294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_35
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 193
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ba5515147090700800000000000000
+      internalID: 506944410174729018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 189
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3be7e4cbee796820800000000000000
+      internalID: 2911998185157684027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_37
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 192
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb3d1caf70d2f330800000000000000
+      internalID: 3743283487065324481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_38
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 192
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fadd2bfbd5e64a0800000000000000
+      internalID: -6598233326130188399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_39
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 190
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6962cf20d3878210800000000000000
+      internalID: 1335180744716347756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 125
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b782b717efab6d0800000000000000
+      internalID: -2973784840573781187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_41
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 126
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e4b68f602d4cd00800000000000000
+      internalID: 992148745307770443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_42
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 127
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38992512de15351e0800000000000000
+      internalID: -2210332913200621181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_43
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 125
+        width: 58
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd13d80b35b6d030800000000000000
+      internalID: 3519199423992372701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_44
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 124
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60c4eb45ab5213f0800000000000000
+      internalID: -931581407411257236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_45
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 125
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0684e013a3d7d4e0800000000000000
+      internalID: -1956862815752649202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topDownDemon_46
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 127
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d327f37aa45e023a0800000000000000
+      internalID: -6692096937476263363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

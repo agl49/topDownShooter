@@ -27,14 +27,12 @@ public class player : MonoBehaviour, Ihittable
     // Start is called before the first frame update
     void Awake()
     {
-        Debug.Log("Player Awake");    
         myHealth = gameObject.GetComponent<Ihealth>();
     }
 
     void Start()
     {
         myHealth.setCurrentHealth(maxHealth);
-        Debug.Log("Started player");
     }
 
     // Update is called once per frame
@@ -45,7 +43,6 @@ public class player : MonoBehaviour, Ihittable
 
     private void FixedUpdate()
     {
-        //Debug.Log("in fixedUpdate");    
         move();
         lookWithMouse();
     }
@@ -66,8 +63,6 @@ public class player : MonoBehaviour, Ihittable
             }
             velocity = calVelocity(movement);
             rb.velocity = velocity * movement.normalized;
-            //Debug.Log("currentVelocity: " + rb.velocity);
-            //rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
         }
     }
 
@@ -103,7 +98,6 @@ public class player : MonoBehaviour, Ihittable
             movement.y = Input.GetAxis("Vertical");
 
             mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-            Debug.Log("Got inputX: " + movement.x);
         }
     }
 
@@ -114,7 +108,6 @@ public class player : MonoBehaviour, Ihittable
         if(!myHealth.isAlive())
             die();
 
-        Debug.Log("hit");    
     }
 
     public void stopMovement()
@@ -130,8 +123,6 @@ public class player : MonoBehaviour, Ihittable
     public void die()
     {
         OnDie?.Invoke(!myHealth.isAlive());
-        Debug.Log("I died");
-        Debug.Log("myHealth.isAlive = " + myHealth.isAlive());
     }
 
     // this function will check for the exit door

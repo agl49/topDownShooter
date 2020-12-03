@@ -10,10 +10,10 @@ public class bullet : MonoBehaviour
    
    void OnCollisionEnter2D(Collision2D collision)
    {
-        var enemy = collision.collider.GetComponent<Enemy>();
+        if(collision.gameObject.CompareTag("enemy"))
+        {
+            var enemy = collision.collider.GetComponent<Enemy>();
         
-        //Change hero_0 to some other name
-        if(collision.gameObject.name != "player"){
             GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
             Destroy(effect, 2f);
             if(enemy){
@@ -21,9 +21,19 @@ public class bullet : MonoBehaviour
             }
             Destroy(gameObject);
         }
-        else{
-          //  Destroy(gameObject);
-        } 
-
+        else if(collision.gameObject.CompareTag("Player"))
+        {
+            var player = collision.collider.GetComponent<player>();
+            GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
+            Destroy(effect, 2f);
+            player.getHit(damage);
+            Destroy(gameObject);
+        }
+        else
+        {
+            GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
+            Destroy(effect, 2f);
+            Destroy(gameObject);
+        }
    }
 }

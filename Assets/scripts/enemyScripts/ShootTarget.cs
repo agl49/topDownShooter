@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//For homming bullet or like aiming
 public class ShootTarget : MonoBehaviour
 {
     GameObject target;
