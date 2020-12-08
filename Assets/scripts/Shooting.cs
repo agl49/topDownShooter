@@ -8,6 +8,8 @@ public class Shooting : MonoBehaviour
 
     private Transform firePoint;
 
+    private float nextFire = -1f;
+
     private bool ableToShoot = true;
 
     void Start()
@@ -18,6 +20,7 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        nextFire -= Time.deltaTime;
         if(Input.GetButtonDown("Fire1"))
         {
             shoot();
@@ -26,6 +29,7 @@ public class Shooting : MonoBehaviour
    
     public void shoot()
     {
+        ableToShoot = coolDown();
         if(ableToShoot)
         {
             GameObject bullet = Instantiate(currentWeapon.bulletPrefab, 
@@ -33,7 +37,23 @@ public class Shooting : MonoBehaviour
                                             firePoint.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
             rb.AddForce(firePoint.up * currentWeapon.bulletForce, ForceMode2D.Impulse);
+
+            nextFire = currentWeapon.fireRate;
+            ableToShoot = coolDown();
         }
+    }
+
+    public bool coolDown()
+    {
+        bool canFire;
+        if (nextFire > 0)
+        {
+            
+            canFire = false;
+        }
+        else
+            canFire = true;
+        return canFire;
     }
 
     public void turnOffShooting()

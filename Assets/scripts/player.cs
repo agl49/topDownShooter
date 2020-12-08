@@ -123,13 +123,6 @@ public class player : MonoBehaviour, Ihittable
     public void die()
     {
         OnDie?.Invoke(!myHealth.isAlive());
+        rb.velocity = 0f * movement.normalized;
     }
-
-    // this function will check for the exit door
-    //public void OnTriggerEnter2D(Collider2D target)
-    //{
-    //    if(target.tag == "Exit") { 
-    //        Time.timeScale = 0f;
-    //    }
-    //}
 }

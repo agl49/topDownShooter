@@ -16,6 +16,6 @@ MonoBehaviour:
     type: 3}
   bulletPrefab: {fileID: 2609643602395254501, guid: d691d4cc34c27e17095f81f71d03a571,
     type: 3}
-  fireRate: 1
+  fireRate: 0.75
   bulletForce: 50
   gunName: heavyGun

@@ -58,3 +58,6 @@ TagManager:
   - name: forground
     uniqueID: 2641999579
     locked: 0
+  - name: Menu
+    uniqueID: 2379163075
+    locked: 0

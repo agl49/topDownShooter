@@ -14,8 +14,6 @@ public class levelExit : MonoBehaviour
 
     private IEnumerator LoadNextLevel() 
     {
-        Debug.Log("we entered the coroutine");
-
         yield return new WaitForSecondsRealtime(levelLoadDelay);
 
         var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
@@ -27,8 +25,6 @@ public class levelExit : MonoBehaviour
         else
         {
             SceneManager.LoadScene(currentSceneIndex + 1);
-            Debug.Log("Done Loading scene");
         }
-
    }
 }
